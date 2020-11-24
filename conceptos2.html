@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos 2</title>
+    <link rel="stylesheet" href="estilos.css">    
+    <style>
+        h2{
+            padding: 20px;
+            color:black;
+            text-align: justify;
+            font-size: 27px;
+            
+        }
+        h1{
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+        p{
+            padding: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+
+        }       
+    </style>
+</head>
+<body>
+    <a href="https://www.unad.edu.co/"><img src="img/LOGO unad.png" alt="Logo Unad"></a>
+    <p class = "Inicio"></p>
+    <h1 class = "main"></h1>
+    <h1 class = "titulo">CSS3: Estilos Internos y Externos, Selectores CSS3</h1>
+    <p class = "Inicio"></p>
+    <br>
+    <header>
+        <div class="contenedor">
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+
+                    <li><a href="conceptos.html">Conceptos</a>
+                        <ul>
+                            <li><a href="conceptos2.html">Concepto 2</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="recursos.html">Recursos</a><ul>
+                            <li><a href="recursos2.html">Recursos 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autoevaluacion.html">Autoevaluacion</a>
+                        <ul>
+                            <li><a href="autoevaluacion2.html">Autoevaluacion 2</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="autor.html">Autor</a></li>   
+                </ul>
+            </nav>
+        </div>   
+    </header>
+    
+    <br>
+
+    <h1>Conceptos</h1>
+
+    <header><p>Los Selectores definen sobre que elementos se aplicara un conjunto de reglas CSS.
+    </p>    
+    <h2>Selectores Básicos</h2>    
+    </header>
+    <section class="container3">
+        <article class = "item">
+            <ul>                
+                <li>Selectores de tipo</li>
+                <p>Selecciona todos los elementos que coinciden con el nombre del elemento especificado
+                    <br>
+                    <br>
+                    Sintasis: eltname
+                    <br>
+                    <strong>Ejemplo: </strong> input se aplicara a cualquier elemento input.
+                </p>
+                <li>Selectores de clase</li>
+                <p>
+                    Selecciona todos los elementos que tiene el atributo de clas especificado.
+                    <br>
+                    <br>
+                    Sintasis: .classname
+                    <br>
+                    <strong>Ejemplo: </strong> .index seleccionará cualquier elemento qiue tenga la clase "index"
+                </p>
+                <li>Selector de ID</li>
+                <p>
+                    Selecciona un elemento basándose en el valor de su atributo id. Solo puede haber un elemento con un determinado ID dentro de un documento.
+                    <br>
+                    <br>
+                    Sintasis: #idname
+                    <br>
+                    <strong>Ejemplo: </strong>#toc se aplicará a cualquier elemento que tenga el ID "toc"
+                </p>
+                
+                
+            </ul>
+        </article>
+    </section>
+
+    <section class="container3">
+        <article class="item">
+            <ul>
+                <li>Selector Universal </li>
+                <p>
+                    Selecciona todos los elementos. Opcionalmente, puede estar restringido a un espacio de nombre específico o a todos los espacios de nombres.
+                    <br>
+                    <br>
+                    Sintasis: *ns|* *|*
+                    <br>
+                    <strong>Ejemplo: </strong> * se aplilcara a todos los elementos del documento
+                </p>
+                <li>Selectores de atributo</li>
+                <p>
+                    Selecciona elementosbasándose en el valor de un determinado atributo.
+                    <br>
+                    <br>
+                    Sintasis: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]
+                    <br>
+                    <strong>Ejemplo: </strong>[autoplay] seleccionará todos los elementos que tengan el atributo "autoplay" establecido (a cualquier valor)
+                </p>
+            </ul>
+        </article>
+    </section>
+
+    <div class="refe">
+        <p> <strong> Referencias bibliograficas: </strong>
+            <br>
+            <ul class="refe">
+                <li>
+                    Selectores CSS. MDN web docs moz://a.Selectores básicos. Tomado de:<a href="https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS"> https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS</a>
+                </li>
+            </ul>
+            
+        </p>
+    </div>
+
+    <p class="final"> 
+        Jose Roberto Florez Lombana
+        <br>
+        Universidad Nacional Abierta y a Distancia - UNAD
+    </p>
+
+
+</body>
+</html>

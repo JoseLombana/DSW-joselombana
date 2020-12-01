@@ -24,6 +24,12 @@ body{
     background-color:#005883;
 }
 
+iframe{
+    width: 80%;
+    height: 90vh;
+    padding: 50px;
+}
+
 .titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:#005883;
